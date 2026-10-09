@@ -13,7 +13,7 @@
 #define clearFlagA (TIFR0 = (1 << OCF0A))
 
 // Pushbutton SW200 is located at PB7, page 12 of the user guide
-// Yellow LED D200 is located at PB5, page ## of the user guide
+// Yellow LED D200 is located at PB5
 
 int main(void)
 {
