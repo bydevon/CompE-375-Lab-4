@@ -17,8 +17,8 @@
 
 int main(void)
 {
-	unsigned char dutyCycle = 0; // unsigned for no negative numbers
-	unsigned char pwmCount = 0;
+	uint8_t dutyCycle = 0; // unsigned for no negative numbers
+	uint8_t pwmCount = 0;
 	
 	// Configure LED and Button
 	DDRB |= (1 << DDB5);    // PB5 output (LED)
